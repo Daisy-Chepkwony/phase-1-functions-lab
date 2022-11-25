@@ -2,25 +2,25 @@
   "stats": {
     "suites": 5,
     "tests": 13,
-    "passes": 11,
+    "passes": 13,
     "pending": 0,
-    "failures": 2,
-    "start": "2022-11-25T14:36:29.150Z",
-    "end": "2022-11-25T14:36:29.568Z",
-    "duration": 418
+    "failures": 0,
+    "start": "2022-11-25T19:43:05.241Z",
+    "end": "2022-11-25T19:43:05.792Z",
+    "duration": 551
   },
   "tests": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -43,24 +43,14 @@
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 2112",
-        "showDiff": true,
-        "expected": 2112,
-        "stack": "AssertionError: expected undefined to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
+      "err": {}
     },
     {
       "title": "calculates distances below 42nd street",
       "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
       "duration": 0,
       "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 2112",
-        "showDiff": true,
-        "expected": 2112,
-        "stack": "AssertionError: expected undefined to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
+      "err": {}
     },
     {
       "title": "returns the distance travelled in feet",
@@ -113,44 +103,19 @@
     }
   ],
   "pending": [],
-  "failures": [
-    {
-      "title": "returns a distance in feet",
-      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 2112",
-        "showDiff": true,
-        "expected": 2112,
-        "stack": "AssertionError: expected undefined to equal 2112\n    at Context.<anonymous> (test/indexTest.js:22:43)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
-    },
-    {
-      "title": "calculates distances below 42nd street",
-      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
-      "duration": 0,
-      "currentRetry": 0,
-      "err": {
-        "message": "expected undefined to equal 2112",
-        "showDiff": true,
-        "expected": 2112,
-        "stack": "AssertionError: expected undefined to equal 2112\n    at Context.<anonymous> (test/indexTest.js:26:43)\n    at process.processImmediate (node:internal/timers:471:21)"
-      }
-    }
-  ],
+  "failures": [],
   "passes": [
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 2,
+      "duration": 1,
       "currentRetry": 0,
       "err": {}
     },
     {
       "title": "returns a distance in blocks",
       "fullTitle": "index.js distanceFromHqInBlocks() returns a distance in blocks",
-      "duration": 1,
+      "duration": 0,
       "currentRetry": 0,
       "err": {}
     },
@@ -164,6 +129,20 @@
     {
       "title": "returns a distance in feet",
       "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "returns a distance in feet",
+      "fullTitle": "index.js distanceFromHqInFeet() returns a distance in feet",
+      "duration": 0,
+      "currentRetry": 0,
+      "err": {}
+    },
+    {
+      "title": "calculates distances below 42nd street",
+      "fullTitle": "index.js distanceFromHqInFeet() calculates distances below 42nd street",
       "duration": 0,
       "currentRetry": 0,
       "err": {}

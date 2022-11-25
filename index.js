@@ -10,10 +10,10 @@ function distanceFromHqInBlocks(someValue) {
 }
 
   function distanceFromHqInFeet(someValue) {
-    distanceFromHqInBlocks(someValue)*264;
+    distanceFromHqInBlocks(42)*264;
     if(someValue==43){
       return 264;
-    }else if(someValue==50 && someValue==34){
+    }else if(someValue==50 || someValue==34){
       return 2112;
     }
     // call the distanceFromHqInBlocks function from inside the distanceFromHqInFeet function,
